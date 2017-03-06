@@ -37,3 +37,5 @@ docs/_build/
 .idea
 godaddypy.iml
 .cache/
+
+.pybuild/

@@ -1,0 +1,35 @@
+Source: python-godaddypy
+Section: python
+Priority: optional
+Maintainer: Yury Zavarin <yzavarin@ebi.ac.uk>
+Build-Depends:
+ debhelper (>= 9),
+ python-all,
+ python-setuptools,
+ python3-all,
+ python3-setuptools,
+ dh-python,
+Build-Depends-Indep:
+ python-requests (>= 2.4),
+ python3-requests (>= 2.4),
+Standards-Version: 3.9.8
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.2
+
+Package: python-godaddypy
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python:Depends},
+#
+ python-requests (>= 2.4),
+Description: Library for managing GoDaddy DNS entries for Python2
+
+Package: python3-godaddypy
+Architecture: all
+Depends:
+ ${misc:Depends},
+ ${python:Depends},
+#
+ python3-requests (>= 2.4),
+Description: Library for managing GoDaddy DNS entries for Python3

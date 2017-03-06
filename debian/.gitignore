@@ -1,0 +1,4 @@
+debhelper-build-stamp
+files
+python-godaddypy*
+python3-godaddypy*
